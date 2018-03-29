@@ -1,0 +1,40 @@
+.common-row{
+    display: flex;
+    flex-direction: row;
+    margin: 0rem;
+}
+.common-column{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+}
+.common-main-center{
+    justify-content: center;
+}
+.common-main-between{
+    justify-content: space-between;
+}
+
+.common-main-start{
+    justify-content: flex-start;
+}
+.common-main-end{
+    justify-content: flex-end;
+}
+
+.common-align-center{
+    align-items: center;
+}
+.common-align-start{
+    align-items: flex-start;
+}
+.common-align-center{
+    align-items:flex-end;
+}
+
+.common-warp{
+    flex-wrap: wrap;
+}
+.common-nowarp{
+    flex-wrap: nowrap;
+}
