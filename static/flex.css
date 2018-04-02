@@ -28,7 +28,7 @@
 .common-align-start{
     align-items: flex-start;
 }
-.common-align-center{
+.common-align-end{
     align-items:flex-end;
 }
 
