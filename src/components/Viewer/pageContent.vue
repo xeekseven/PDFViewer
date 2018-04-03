@@ -32,7 +32,7 @@
 							<a href="#">经典杂志</a>
 						</li>
 						<li aria-expanded="false" class="">
-							<a href="#">行业教材</a>
+							<a href="#">行业</a>
 						</li>
 					</ul>
 				</div>
@@ -42,8 +42,7 @@
 			<div class="common-column common-main-start" style="width:20%;height:auto;border:0.1rem solid red">as</div>
 			<div class="common-column common-main-start" style="width:60%;height:auto;border:0.1rem solid red">
 				<div class="common-row common-main-start" style="margin-top:1rem;height:2rem;border:0.1rem solid red">
-					
-					
+	
 				</div>
 				<div style="width:100%;border:0.1rem solid red">
 				</div>
@@ -149,7 +148,6 @@
 	}
 	.div-img {
 		min-height: 25em;
-		align: center;
 		background-image: url("../../../static/image/find.jpg");
 		position: relative;
 	}
