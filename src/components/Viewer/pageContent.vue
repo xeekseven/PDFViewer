@@ -38,28 +38,71 @@
 				</div>
 			</div>
 		</div>
-		<div class="common-row common-main-center" style="width:100%;height:100rem">
-			<div class="common-column common-main-start" style="width:20%;height:auto;border:0.1rem solid red">as</div>
-			<div class="common-column common-main-start" style="width:60%;height:auto;border:0.1rem solid red">
-				<div class="common-row common-main-start" style="margin-top:1rem;height:2rem;border:0.1rem solid red">
-	
+		<div class="common-row common-main-center" style="width:100%;height:auto;border:0.7rem solid #FFF;">
+			<div class="common-column common-main-start" style="width:20%;height:auto;border:0.0rem solid red">
+				<searchRank></searchRank>
+			</div>
+			<div class="common-column common-main-start" style="width:60%;height:auto;border:0.0rem solid red">
+				<div class="common-row common-main-between" style="padding:0rem 0rem;background-color:#FFF;border:0.7rem solid #F1F1F1">
+					<div class="common-row common-main-start">
+						<div class="filter-span">
+							综合<span>上</span>
+						</div>
+						<div class="filter-span">
+							下载量<span>上</span>
+						</div>
+						<div class="filter-span">
+							评价<span>上</span>
+						</div>
+						<div class="filter-span">
+							中英<span>上</span>
+						</div>
+						<div class="f-datagrid">
+							<a href="javascript:;" class="fdg-item" data-range="0-50" data-tips="8%的用户喜欢的价位">
+								<span class="def-bar" style="height:15%"></span>
+							</a>
+							<a href="javascript:;" class="fdg-item" data-range="50-76" data-tips="29%的用户喜欢的价位">
+								<span class="def-bar" style="height:54%"></span>
+							</a>
+							<a href="javascript:;" class="fdg-item" data-range="76-270" data-tips="46%的用户喜欢的价位">
+								<span class="def-bar" style="height:85%"></span>
+							</a>
+							<a href="javascript:;" class="fdg-item" data-range="270-414" data-tips="11%的用户喜欢的价位">
+								<span class="def-bar" style="height:20%"></span>
+							</a>
+							<a href="javascript:;" class="fdg-item" data-range="414-¥" data-tips="6%的用户喜欢的价位">
+								<span class="def-bar" style="height:11%"></span>
+							</a>
+						</div>
+					</div>
+					<div class="common-row common-main-center">
+						<div class="common-row common-main-center">
+							<div class="f-result-sum">共<span id="J_resCount" class="num">7.9万+</span>件商品</div>
+							<div class="common-column common-main-center fp-text" style="margin:0 1rem">
+								<div>
+									<b>2</b><em>/</em><i>100</i>
+								</div>
+							</div>
+							<div class="fp-prev" href="javascript:;" title="使用方向键左键也可翻到上一页哦！">&lt;</div>
+							<div class="fp-next" href="javascript:;" title="使用方向键右键也可翻到下一页哦！">&gt;</div>
+						</div>
+					</div>
 				</div>
-				<div style="width:100%;border:0.1rem solid red">
+				<div style="width:100%;border:0.0rem solid red">
 				</div>
-				<div style="width:100%;height:1rem"></div>
 				<div class="common-row common-main-start common-warp" style="border:0rem solid red">
 					<div v-for="item in books" class="common-column common-main-start  content-card" v-bind:style="{backgroundImage:'url(' + item.url + ')'}">
 						<div class="mouse" style="width:100%;height:75%;background-size:100%"></div>
 						<div class="common-column common-main-start" style="width:100%;height:25%; filter: blur(7px);font-size:0.5rem;color:#fff;background:rgba(0,0,0,0.8);">
 							<!-- <div style="width:100%;height:33%;border:0.1rem solid red;z-index:1000">
-												<span><<{{item.name}}>></span>
-											</div>
-											<div style="width:100%;height:33%;border:0.1rem solid red">
-												<span><<{{item.description}}>></span>
-											</div>
-											<div style="width:100%;height:33%;border:0.1rem solid red">
-												<span>{{item.author}}</span>
-											</div> -->
+																										<span><<{{item.name}}>></span>
+																									</div>
+																									<div style="width:100%;height:33%;border:0.1rem solid red">
+																										<span><<{{item.description}}>></span>
+																									</div>
+																									<div style="width:100%;height:33%;border:0.1rem solid red">
+																										<span>{{item.author}}</span>
+																									</div> -->
 						</div>
 						<div class="common-column common-main-start" style="width:100%;height:25%;font-size:0.5rem; color:#fff;z-index:1000;margin-top:-4.1rem">
 							<div class="common-row common-main-between" style="align:left; width:100%;height:auto;border:0.0rem solid red;box-sizing: border-box;text-align:left;padding:0 7%">
@@ -81,14 +124,101 @@
 					<div class="content-card"></div>
 					<div class="content-card"></div>
 					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+					<div class="content-card"></div>
+				</div>
+				<div class="common-row common-main-center common-align-center div-seletPage">
+					<ul class="uk-pagination">
+						<li class="uk-disabled"><span><i class="uk-icon-angle-double-left"></i></span></li>
+						<li class="uk-active"><span>1</span></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><span>...</span></li>
+						<li><a href="#">20</a></li>
+						<li><a href="#"><i class="uk-icon-angle-double-right"></i></a></li>
+					</ul>
 				</div>
 			</div>
-			<div class="common-column common-main-start" style="width:20%;height:auto;border:0.1rem solid red">as</div>
+			<div class="common-column common-main-start" style="width:20%;height:auto;border:0.0rem solid red">
+				<downRank></downRank>
+			</div>
 		</div>
 	</div>
 </template>
 <script>
+	import searchRank from "../componentView/searchRank.vue"
+	import downRank from "../componentView/downRank.vue"
 	export default {
+		components: {
+			searchRank,
+			downRank
+		},
 		data() {
 			return {
 				books: [{
@@ -159,7 +289,7 @@
 		margin-left: auto;
 	}
 	.area {
-		border: 1px solid red;
+		border: 0px solid red;
 	}
 	.uk-tab li a {
 		--color: #fff;
@@ -184,5 +314,78 @@
 	.btn-success {
 		background-color: #42b983;
 		border-color: #42b983;
+	}
+	.filter-span {
+		padding: 0 9px;
+		height: 23px;
+		border: 1px solid #CCC;
+		line-height: 23px;
+		margin-right: -1px;
+		background: #FFF;
+		color: #333;
+		cursor: pointer;
+	}
+	.filter-span:hover {
+		position: relative;
+		text-decoration: none;
+		border-color: #e4393c;
+		color: #e4393c;
+	}
+	.f-datagrid {
+		float: left;
+		width: 71px;
+		height: 25px;
+		padding-left: 1px;
+		margin-right: 12px;
+		overflow: hidden;
+		margin: 0 0 0 3rem;
+	}
+	.f-datagrid .fdg-item {
+		position: relative;
+		float: left;
+		width: 13px;
+		height: 23px;
+		border: 1px solid #ccc;
+		margin-left: -1px;
+		display: inline;
+		background: #fff;
+	}
+	.f-datagrid .def-bar {
+		position: absolute;
+		left: -1px;
+		bottom: -1px;
+		z-index: 2;
+		width: 13px;
+		height: 0;
+		border: 1px solid #aaa;
+		overflow: hidden;
+		background: #e5e5e5;
+	}
+	.fp-next,
+	.fp-prev {
+		width: 46px;
+		height: 23px;
+		border: 1px solid #DDD;
+		background: #FFF;
+		line-height: 23px;
+		font-family: "\5b8b\4f53";
+		text-align: center;
+		font-size: 16px;
+		color: #AAA;
+	}
+	.f-pager .fp-text {
+		line-height: 23px;
+		margin-right: 10px;
+		font-family: verdana;
+	}
+	.f-result-sum {
+		float: right;
+		height: 25px;
+		line-height: 25px;
+		margin-right: 0;
+		color: #999;
+	}
+	.div-seletPage {
+		margin: 3rem;
 	}
 </style>
